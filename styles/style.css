@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Prosto One;
+}
+body {
+    background: #151515;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1134px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.header__nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__logo {
+    display: block;
+    margin: 6px 0;
+}
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__item {
+}
+.header__link {
+    color: #fff;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 0 21px 30px;
+}
+.header__search {
+    display: flex;
+    gap: 25px;
+}
+.header__airpods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    background-image: url("../images/Header.png");
+    background-size: cover;
+}
+.header__airpods h1 {
+    color: #fff;
+    font-family: "Prosto One";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px; /* 75% */
+    padding: 38px;
+}
+.header__airpods button {
+    border-radius: 10px;
+    background: #fff;
+    padding: 13px 14px;
+    color: #171718;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.main .container {
+    margin-top: 30px;
+}
+.main__airpods1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.main__text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main__airpods2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+    margin-bottom: 50px;
+}
+.main__airpods3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 79px;
+}
+.main__title {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main__image {
+    width: 61px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #c4c4c4;
+    margin: 0px 13px;
+}
+.main__airpods3 img {
+    margin: 0px 14px;
+}
+.main__iphone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.main__iphone .iphone {
+    width: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    background: #fff;
+}
+.iphone__text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.iphone__shop {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.iphone__button {
+    background: #151515;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 7px 57px;
+    margin-bottom: 10px;
+}
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__list {
+    display: flex;
+    gap: 30px;
+    margin: 96px 0 95px;
+}
+.footer__link {
+    color: #fff;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer__card{
+    display: flex;
+    gap: 29px;
+}
